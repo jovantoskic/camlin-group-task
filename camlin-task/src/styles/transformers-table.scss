@@ -1,0 +1,71 @@
+.transformer-table {
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  .search-input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+
+    &:focus {
+      border-color: #0077cc;
+    }
+  }
+
+  .transformer-table-grid {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+
+    th,
+    td {
+      padding: 0.75rem 1rem;
+      text-align: left;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    thead {
+      th {
+        background-color: #f0f0f0;
+        font-weight: 600;
+        font-size: 0.95rem;
+      }
+    }
+
+    tbody {
+      tr:hover {
+        background-color: #f6faff;
+      }
+    }
+  }
+  .table-controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    .region-select {
+      min-width: 8rem;
+      max-height: 2.2rem;
+      position: relative;
+      padding-right: 10px;
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8"><path d="M6 6L0 0h12L6 6z" fill="%23000"/></svg>')
+        no-repeat;
+      background-position: right 10px center;
+      background-size: 12px 8px;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      padding-left: 1rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  }
+}
