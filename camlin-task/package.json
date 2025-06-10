@@ -9,11 +9,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "chart.js": "^4.4.9",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "date-fns": "^4.1.0",
     "pinia": "^3.0.3",
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@types/chart.js": "^4.0.1",
+    "@types/vue-router": "^2.0.0",
     "@vitejs/plugin-vue": "^5.2.3",
+    "prettier": "3.5.3",
+    "sass-embedded": "^1.89.1",
     "vite": "^6.2.4",
     "vite-plugin-vue-devtools": "^7.7.2"
   }
